@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto flex justify-between px-4">
         <div className="flex flex-col space-y-4">
           <h2 className="font-bold">
-            <Link href="http://localhost:3000/projects">Projects</Link>
+            <Link href="/projects">Projects</Link>
           </h2>
           <ul className="space-y-2">
             <li>Project A</li>
@@ -18,10 +18,10 @@ const Footer = () => {
           <h2 className="font-bold">About</h2>
           <ul className="space-y-2">
             <li>
-              <Link href="http://localhost:3000/about">Company</Link>
+              <Link href="/about">Company</Link>
             </li>
             <li>
-              <Link href="http://localhost:3000/news">News</Link>
+              <Link href="/news">News</Link>
             </li>
           </ul>
         </div>
@@ -29,7 +29,7 @@ const Footer = () => {
           <h2 className="font-bold">Contact</h2>
           <ul className="space-y-2">
             <li>
-              <Link href="http://localhost:3000/contact">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>
